@@ -1,19 +1,22 @@
 # CoreML Code Snippets
 
-![icon](coreml_logo.png)
+![icon](imgs/coreml_logo.png)
 
 Random code snippets while learning CoreML - an iOS framework for running trained Machine Learning models.
 
-
 ### Image Detection
 
-* Captures video from Camera.
-* Sends captured data to a CoreML Model (Resnet50.mlmodel) for identifying objects within captured frames.
-* Reports the detected objects and confience.
+![screen](imgs/ImageDetection.gif)
+
+* Real-time capture using AVCaptureSession.
+* Uses a CoreML Model (Resnet50.mlmodel) to detect objects within the captured data.
+* Reports the detected objects and confidence level.
 
 ## References
 
-* [CoreML Tools](https://pypi.python.org/pypi/coremltools) for converting trained Machine Learning models for use in iOS apps.
+* [Introducing CoreML](https://developer.apple.com/videos/play/wwdc2017/703/) - WWDC 2017 presentation
+* [CoreML In Depth](https://developer.apple.com/videos/play/wwdc2017/710/) - WWDC 2017 presentation
+* [CoreML Tools](https://pypi.python.org/pypi/coremltools) - for converting trained Machine Learning models for use in iOS apps.
 
 ## Connect
 
